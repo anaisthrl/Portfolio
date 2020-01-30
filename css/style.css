@@ -5,3 +5,8 @@ h1 {
 body {
     padding-left: 3%;
 }
+
+a:active {
+    background-color: white;
+    color:white;
+}
