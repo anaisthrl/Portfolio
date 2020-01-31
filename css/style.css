@@ -10,3 +10,32 @@ a:active {
     background-color: white;
     color:white;
 }
+
+.en_cours_overlay {
+    position: absolute;
+    top: 12%;
+    bottom: 0;
+    left: 2%;
+    right: 0;
+    height: 88%;
+    width: 90%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.en_cours_div:hover .en_cours_overlay{
+    opacity:1;
+}
+
+.en_cours_text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
