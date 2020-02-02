@@ -4,6 +4,7 @@ h1 {
 
 body {
     padding-left: 3%;
+    padding-right:3%
 }
 
 a:active {
@@ -13,12 +14,12 @@ a:active {
 
 .en_cours_overlay {
     position: absolute;
-    top: 12%;
+    top: 0%;
     bottom: 0;
-    left: 2%;
+    left: 3%;
     right: 0;
-    height: 88%;
-    width: 90%;
+    height: 100%;
+    width: 91%;
     opacity: 0;
     transition: .5s ease;
     background-color: rgba(0,0,0,0.5);
@@ -38,4 +39,4 @@ a:active {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
-  }
+}
