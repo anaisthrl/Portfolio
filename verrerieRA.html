@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Anaïs Thoral</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+
+    <body>
+        <div class="border-bottom border-dark" >
+            <div class="row">
+                <h1 id="title" class="display-1 col-lg-11"><a href="index.html"  style="text-decoration: none; color:black"> Anaïs Thoral</a></h1>
+                <div class="dropleft col-lg-1">
+                    <img src="images/menubuttonofthreelines_79781.png" style="height: 40px; width: 40px; margin-top: 50%; cursor: pointer" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="index.html">Home</a>
+                        <a class="dropdown-item"  href="CV.html">CV</a>
+                        <a class="dropdown-item" href="moi.html">Un peu de moi</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 5%;">
+                <h5 class="col-lg-1 "><a href="https://www.linkedin.com/in/anaïs-thoral-94843819a/" style="text-decoration: none; color:black">Linkedin</a></h5>
+                <h5 class="col-lg-3 ">anaisthoral@gmail.com</h5>
+                <h5 class="col-lg-1"><a href="https://gitlab-lepuy.iut-clermont.uca.fr/anthoral" style="text-decoration: none; color:black">GitLab</a></h5>
+            </div>
+            <div class="row " style="padding-bottom: 2%;">
+                <h5 class="col-lg-1 "><a href="https://github.com/anaisthrl" style="text-decoration: none; color:black">Github</a></h5>
+                <h5 class="col-lg-3 ">06-07-58-12-51</h5>
+            </div>
+        </div>
+        <div >
+            <div>
+                <div class="row" style="margin-bottom: 1%;">
+                    <img src="images/unity.jpg" height="10%" width="10%" style="margin-top: 1%; margin-left: 1%;">
+                    <img src="images/cs.png" height="5%" width="5%">
+                    <img src="images/vuforia.jpg" height="5%" width="5%">
+                </div>
+                <div style="background-image: url(images/verrerie.gif); background-position: center; background-size: 100% 100%; height:600px;">
+                    <video controls="controls" style="height:400px; width:600px; margin-left: 25%; margin-top: 7%;" >
+                        <source src="videos/verrerie.mp4">
+                    </video>
+                </div>  
+            </div>
+            <div>
+                <h2 style="font-size: 200%; margin-top: 3%;" >Verrerie en réalité augmentée</h2>
+            </div>
+            <div class="row " style="margin-top: 3%;">
+                <div class="col-lg-4" style="padding-right: 10%;">
+                    <p>Projet de groupe réalisé en cours de réalité augmentée en deuxième année de DUT Informatique.</p>
+                    <p>Groupe composé de 2 membres </p>
+                    <p><a href="https://github.com/simr404/Projet-AR-Verrerie" >Lien github</a></p>
+                </div>
+                <div class="col-lg-4" style="padding-right: 10%;">
+                    <p style="font-weight: bold;">Mon rôle:</p>
+                    <p>Programmeur</p>
+                </div>
+                <div class="col-lg-4" style="padding-right: 5%;">
+                    <p style="font-weight: bold;">Consigne:</p>
+                    <p>Création d'une application simple pouvant servir aux restaurateurs. Grâce à elle, ils pourront
+                        essayer différentes collections de verres avant de les acheter. 
+                        <br/> Application devant être en temps réelle avec des shaders appropriés pour se rapprocher de la texture transparente des verres.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        var alternance =function(){
+            if(document.getElementById('title').textContent=='Anaïs Thoral'){
+                document.getElementById('title').textContent='Portfolio';
+            }
+            else{
+                document.getElementById('title').textContent='Anaïs Thoral';
+            }
+        };
+
+        periode = setInterval(alternance, 3000);
+    </script>
+</html>
+
